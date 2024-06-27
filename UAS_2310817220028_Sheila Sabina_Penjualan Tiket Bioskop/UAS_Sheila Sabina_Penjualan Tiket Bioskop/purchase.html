@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Ticket - Cinema Ticket Sale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Penjualan Tiket Bioskop</h1>
+    </header>
+
+    <!-- Menu -->
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="purchase.html">Purchase Ticket</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <!-- Body -->
+    <main>
+        <h2>Purchase Ticket</h2>
+        <form id="purchaseForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="movie">Select Movie:</label>
+            <select id="movie" name="movie">
+                <option value="movie1">Agak Laen</option>
+                <option value="movie2">Exhuma</option>
+                <option value="movie3">Mai</option>
+            </select><br><br>
+
+            <button type="submit">Purchase</button>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
